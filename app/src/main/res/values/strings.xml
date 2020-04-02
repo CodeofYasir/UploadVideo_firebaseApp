@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UploadVideo_firebase</string>
+    <string name="upload_image">upload_image</string>
+    <string name="please_wait">please_wait</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="choose_video_to_upload">Choose Video to upload</string>
+</resources>

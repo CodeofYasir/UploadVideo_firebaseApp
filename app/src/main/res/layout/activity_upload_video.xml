@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uploadVideoAct">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoNameET"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter Video name"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectVideoBtn"
+        android:text="@string/choose_video_to_upload"
+        android:layout_below="@id/videoNameET"
+        android:layout_marginTop="10dp"
+        />
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/videoToUploadIV"
+        android:layout_marginStart="10dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/selectVideoBtn"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uploadVideoBtn"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/videoToUploadIV"
+        android:text="@string/upload_video"
+        />
+
+
+</RelativeLayout>

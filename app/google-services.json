@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "145028091229",
+    "firebase_url": "https://uploadvideofirebase-f9931.firebaseio.com",
+    "project_id": "uploadvideofirebase-f9931",
+    "storage_bucket": "uploadvideofirebase-f9931.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145028091229:android:a367bcf94ccc91752b6cb4",
+        "android_client_info": {
+          "package_name": "com.s.uploadvideo_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145028091229-sbbid1r7ebt27ee843rlal3mi1tlopqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.s.uploadvideo_firebase",
+            "certificate_hash": "2db2669f49d7a692cbefe43e3154b85b592adf99"
+          }
+        },
+        {
+          "client_id": "145028091229-4f0dbbuiutdtdcn0v41dt4e9efbv647j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCcf8FR7vkGtpX08IK4wFJBPKzkTlRntA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145028091229-4f0dbbuiutdtdcn0v41dt4e9efbv647j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
